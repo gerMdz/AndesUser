@@ -22,6 +22,7 @@ security:
             provider: app_user_provider
 #            entry_point: App\Security\LoginFormAuthenticator
             entry_point: form_login
+            login_throttling: true
             custom_authenticator:
 #                - App\Security\AndesFormAuthenticator
 #                - App\Security\LoginFormAuthenticator
