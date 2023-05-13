@@ -31,6 +31,8 @@ class AdminController extends AbstractController
                 ],
             ],
         ]);
+        
+        
 
         $chart2 = $chartBuilder->createChart(Chart::TYPE_PIE);
         $chart2->setData([
